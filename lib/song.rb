@@ -31,7 +31,8 @@ class Song
  
  def self.genre_count
    genre_count = Hash.new(0) #sets default value for any key to 0
-   @@genres.each {|genre| genre_count[genre] += 1  
+   @@genres.each { |genre| genre_count[genre] += 1 } 
+   binding.pry
  end 
 end 
 
