@@ -30,7 +30,7 @@ class Song
   end
  
  def self.genre_count
-   genre_count = Hash.new(0)
+   genre_count = Hash.new(0) #sets default key
  
 end 
 
