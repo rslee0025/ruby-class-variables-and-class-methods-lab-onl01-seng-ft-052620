@@ -19,7 +19,7 @@ class Song
   def self.count
     @@count 
   end
-  binding.pry
+
   
   def self.genres 
     @@genres.uniq
